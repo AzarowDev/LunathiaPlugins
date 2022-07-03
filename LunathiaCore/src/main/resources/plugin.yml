@@ -1,0 +1,6 @@
+name: LunathiaCore
+main: fr.nas.lunathia.core.LunathiaCore
+version: 0.0.1
+author: Azarow
+softdepend:
+  - LunathiaLibs
