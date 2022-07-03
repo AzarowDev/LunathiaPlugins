@@ -1,7 +1,7 @@
 package fr.nas.lunathia.core.commands.money;
 
 import fr.nas.lunathia.commands.Command;
-import fr.nas.lunathia.core.commands.accounts.money.CommandMoneyGive;
+import fr.nas.lunathia.core.commands.accounts.money.CommandMoneyRemove;
 import fr.nas.lunathia.entity.LPlayer;
 import fr.nas.lunathia.exception.PlayerNotFoundException;
 import fr.nas.lunathia.utils.MessagePrefix;

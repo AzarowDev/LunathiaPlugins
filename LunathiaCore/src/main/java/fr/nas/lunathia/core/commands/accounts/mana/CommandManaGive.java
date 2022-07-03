@@ -30,7 +30,7 @@ public class CommandManaGive extends Command {
         LPlayer target = this.getLPlayer(args[0]);
         LPlayer player = this.getLPlayer(((Player) sender).getUniqueId());
 
-        target.depositMana(Integer.parseInt(args[1]));
+        target.depositMoney(Double.parseDouble(args[1]));
         player.sendMessage(MessagePrefix.BANQUE, Utils.color("#ffffff") + " Vous avez ajouter " + Utils.color("#17cbf8") + args[1] + Utils.color("#ffffff") + "§r sur " + Utils.color("#17cbf8") + "le compte en banque de " + Utils.color("#ff1828") + args[0] + Utils.color("#ffffff") + "!");
         target.sendMessage(MessagePrefix.BANQUE, Utils.color("#ffffff") + " Le Banquier vous a ajouter " + Utils.color("#17cbf8") + args[1] + Utils.color("#ffffff") + "§r sur " + Utils.color("#17cbf8") + "votre compte en banque " + Utils.color("#ffffff") + "!");
     }
